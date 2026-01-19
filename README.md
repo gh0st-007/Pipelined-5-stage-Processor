@@ -11,11 +11,11 @@ These are used for immediate arithmetic/logical operations.
 
 LW(load word) - This is also an I-type instruction.Its used for load operations.  
 
-S-Type: SW .These are used for store operations.  
+S-Type: SW. These are used for store operations.  
 
-B-Type: BEQ, BNE . Used for conditional branching.  
+B-Type: BEQ.  Used for conditional branching.  
 
-J-Type: JAL . Used for unconditional jumps.  
+J-Type: JAL. Used for unconditional jumps.  
 
 #Testing Methodology
 To verify correct functionality, we have used an assembly program that includes all supported instructions and includes creating data hazards to check if forwarding capability works.
