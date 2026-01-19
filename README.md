@@ -57,24 +57,24 @@ done:
 The equivalent hex code for the above assembly program have been placed in instruction memory (imem.hex) and also, data memory(dmem.hex) contains 0x0000000A at location 0.'
 
 Expected Results: 
-The expected register and memory contents (in decimal) are given below:
-x0 -> 0  
-x1 -> 5
-x2 -> 10
-x3 -> 15
-x4 -> 10
-x5 -> 15
-x6 -> 10
-x7 -> 1
-x8 -> 13
-x9 -> 2
-x10 -> 1
-x11 -> 0
-x12 -> 10
-x13 -> 15
-x17 -> 42
-
- Mem[4] -> 15
-
-A waveform snapshot is included below to confirm successful execution:
+The expected register and memory contents (in decimal) are given below:  
+x0 -> 0    
+x1 -> 5  
+x2 -> 10  
+x3 -> 15  
+x4 -> 10  
+x5 -> 15  
+x6 -> 10  
+x7 -> 1  
+x8 -> 13  
+x9 -> 2  
+x10 -> 1  
+x11 -> 0  
+x12 -> 10  
+x13 -> 15  
+x17 -> 42  
+  
+ Mem[4] -> 15  
+  
+A waveform snapshot is included below to confirm successful execution:  
 ![Waveforms](png/Pipelined_waveform.png)
